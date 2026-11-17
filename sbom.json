@@ -1,11 +1,11 @@
 {
-  "generated": "2026-11-10T15:11:00Z",
+  "generated": "2026-11-17T23:43:27Z",
   "image": "postgres",
   "tags": {
     "14-pkg-latest-amd64": {
-      "app_version": "14.24",
+      "app_version": "14.25",
       "arch": "amd64",
-      "generated": "2026-11-10T15:08:58Z",
+      "generated": "2026-11-17T23:41:16Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -317,7 +317,7 @@
               "GPLv2"
             ],
             "name": "liblz4",
-            "version": "1.10.0_2,1"
+            "version": "1.11.1,1"
           },
           {
             "licenses": [
@@ -372,42 +372,42 @@
               "BSD2CLAUSE"
             ],
             "name": "pkg",
-            "version": "2.9.0"
+            "version": "2.9.2"
           },
           {
             "licenses": [
               "PostgreSQL"
             ],
             "name": "postgresql14-client",
-            "version": "14.24"
+            "version": "14.25"
           },
           {
             "licenses": [
               "PostgreSQL"
             ],
             "name": "postgresql14-contrib",
-            "version": "14.24"
+            "version": "14.25"
           },
           {
             "licenses": [
               "PostgreSQL"
             ],
             "name": "postgresql14-pgvector",
-            "version": "0.8.7"
+            "version": "0.8.7_1"
           },
           {
             "licenses": [
               "PostgreSQL"
             ],
             "name": "postgresql14-server",
-            "version": "14.24"
+            "version": "14.25"
           },
           {
             "licenses": [
               "PSFL"
             ],
             "name": "python312",
-            "version": "3.12.15"
+            "version": "3.12.16"
           },
           {
             "licenses": [
@@ -454,9 +454,9 @@
       }
     },
     "15-pkg-latest-amd64": {
-      "app_version": "15.19",
+      "app_version": "15.20",
       "arch": "amd64",
-      "generated": "2026-11-10T15:08:11Z",
+      "generated": "2026-11-17T23:41:13Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -768,7 +768,7 @@
               "GPLv2"
             ],
             "name": "liblz4",
-            "version": "1.10.0_2,1"
+            "version": "1.11.1,1"
           },
           {
             "licenses": [
@@ -823,42 +823,42 @@
               "BSD2CLAUSE"
             ],
             "name": "pkg",
-            "version": "2.9.0"
+            "version": "2.9.2"
           },
           {
             "licenses": [
               "PostgreSQL"
             ],
             "name": "postgresql15-client",
-            "version": "15.19"
+            "version": "15.20"
           },
           {
             "licenses": [
               "PostgreSQL"
             ],
             "name": "postgresql15-contrib",
-            "version": "15.19"
+            "version": "15.20"
           },
           {
             "licenses": [
               "PostgreSQL"
             ],
             "name": "postgresql15-pgvector",
-            "version": "0.8.7"
+            "version": "0.8.7_1"
           },
           {
             "licenses": [
               "PostgreSQL"
             ],
             "name": "postgresql15-server",
-            "version": "15.19"
+            "version": "15.20"
           },
           {
             "licenses": [
               "PSFL"
             ],
             "name": "python312",
-            "version": "3.12.15"
+            "version": "3.12.16"
           },
           {
             "licenses": [
@@ -905,9 +905,9 @@
       }
     },
     "16-pkg-latest-amd64": {
-      "app_version": "16.15",
+      "app_version": "16.16",
       "arch": "amd64",
-      "generated": "2026-11-10T15:08:46Z",
+      "generated": "2026-11-17T23:41:57Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1219,7 +1219,7 @@
               "GPLv2"
             ],
             "name": "liblz4",
-            "version": "1.10.0_2,1"
+            "version": "1.11.1,1"
           },
           {
             "licenses": [
@@ -1274,42 +1274,42 @@
               "BSD2CLAUSE"
             ],
             "name": "pkg",
-            "version": "2.9.0"
+            "version": "2.9.2"
           },
           {
             "licenses": [
               "PostgreSQL"
             ],
             "name": "postgresql16-client",
-            "version": "16.15"
+            "version": "16.16"
           },
           {
             "licenses": [
               "PostgreSQL"
             ],
             "name": "postgresql16-contrib",
-            "version": "16.15"
+            "version": "16.16"
           },
           {
             "licenses": [
               "PostgreSQL"
             ],
             "name": "postgresql16-pgvector",
-            "version": "0.8.7"
+            "version": "0.8.7_1"
           },
           {
             "licenses": [
               "PostgreSQL"
             ],
             "name": "postgresql16-server",
-            "version": "16.15"
+            "version": "16.16"
           },
           {
             "licenses": [
               "PSFL"
             ],
             "name": "python312",
-            "version": "3.12.15"
+            "version": "3.12.16"
           },
           {
             "licenses": [
@@ -1356,9 +1356,9 @@
       }
     },
     "17-pkg-latest-amd64": {
-      "app_version": "17.11",
+      "app_version": "17.12",
       "arch": "amd64",
-      "generated": "2026-11-10T15:09:27Z",
+      "generated": "2026-11-17T23:41:30Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1670,7 +1670,7 @@
               "GPLv2"
             ],
             "name": "liblz4",
-            "version": "1.10.0_2,1"
+            "version": "1.11.1,1"
           },
           {
             "licenses": [
@@ -1725,42 +1725,42 @@
               "BSD2CLAUSE"
             ],
             "name": "pkg",
-            "version": "2.9.0"
+            "version": "2.9.2"
           },
           {
             "licenses": [
               "PostgreSQL"
             ],
             "name": "postgresql17-client",
-            "version": "17.11"
+            "version": "17.12"
           },
           {
             "licenses": [
               "PostgreSQL"
             ],
             "name": "postgresql17-contrib",
-            "version": "17.11"
+            "version": "17.12"
           },
           {
             "licenses": [
               "PostgreSQL"
             ],
             "name": "postgresql17-pgvector",
-            "version": "0.8.7"
+            "version": "0.8.7_1"
           },
           {
             "licenses": [
               "PostgreSQL"
             ],
             "name": "postgresql17-server",
-            "version": "17.11"
+            "version": "17.12"
           },
           {
             "licenses": [
               "PSFL"
             ],
             "name": "python312",
-            "version": "3.12.15"
+            "version": "3.12.16"
           },
           {
             "licenses": [
@@ -1807,9 +1807,9 @@
       }
     },
     "18-pkg-latest-amd64": {
-      "app_version": "18.6",
+      "app_version": "18.7",
       "arch": "amd64",
-      "generated": "2026-11-10T15:07:16Z",
+      "generated": "2026-11-17T23:39:32Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -2121,7 +2121,7 @@
               "GPLv2"
             ],
             "name": "liblz4",
-            "version": "1.10.0_2,1"
+            "version": "1.11.1,1"
           },
           {
             "licenses": [
@@ -2176,42 +2176,42 @@
               "BSD2CLAUSE"
             ],
             "name": "pkg",
-            "version": "2.9.0"
+            "version": "2.9.2"
           },
           {
             "licenses": [
               "PostgreSQL"
             ],
             "name": "postgresql18-client",
-            "version": "18.6"
+            "version": "18.7"
           },
           {
             "licenses": [
               "PostgreSQL"
             ],
             "name": "postgresql18-contrib",
-            "version": "18.6"
+            "version": "18.7"
           },
           {
             "licenses": [
               "PostgreSQL"
             ],
             "name": "postgresql18-pgvector",
-            "version": "0.8.7"
+            "version": "0.8.7_1"
           },
           {
             "licenses": [
               "PostgreSQL"
             ],
             "name": "postgresql18-server",
-            "version": "18.6"
+            "version": "18.7"
           },
           {
             "licenses": [
               "PSFL"
             ],
             "name": "python312",
-            "version": "3.12.15"
+            "version": "3.12.16"
           },
           {
             "licenses": [
