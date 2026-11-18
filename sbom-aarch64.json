@@ -1,11 +1,11 @@
 {
-  "generated": "2026-11-10T15:58:42Z",
+  "generated": "2026-11-18T01:18:36Z",
   "image": "postgres",
   "tags": {
     "14-pkg-latest-aarch64": {
       "app_version": "14.24",
       "arch": "aarch64",
-      "generated": "2026-11-10T15:50:16Z",
+      "generated": "2026-11-18T01:10:39Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -259,7 +259,7 @@
               "MIT"
             ],
             "name": "expat",
-            "version": "2.9.0"
+            "version": "2.10.0"
           },
           {
             "licenses": [
@@ -329,7 +329,7 @@
               "REGEX"
             ],
             "name": "llvm19",
-            "version": "19.1.7_4"
+            "version": "19.1.7_5"
           },
           {
             "licenses": [
@@ -365,7 +365,7 @@
               "BSD2CLAUSE"
             ],
             "name": "pkg",
-            "version": "2.8.4"
+            "version": "2.9.0"
           },
           {
             "licenses": [
@@ -386,7 +386,7 @@
               "PostgreSQL"
             ],
             "name": "postgresql14-pgvector",
-            "version": "0.8.7"
+            "version": "0.8.7_1"
           },
           {
             "licenses": [
@@ -449,7 +449,7 @@
     "15-pkg-latest-aarch64": {
       "app_version": "15.19",
       "arch": "aarch64",
-      "generated": "2026-11-10T15:50:21Z",
+      "generated": "2026-11-18T01:10:43Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -703,7 +703,7 @@
               "MIT"
             ],
             "name": "expat",
-            "version": "2.9.0"
+            "version": "2.10.0"
           },
           {
             "licenses": [
@@ -773,7 +773,7 @@
               "REGEX"
             ],
             "name": "llvm19",
-            "version": "19.1.7_4"
+            "version": "19.1.7_5"
           },
           {
             "licenses": [
@@ -809,7 +809,7 @@
               "BSD2CLAUSE"
             ],
             "name": "pkg",
-            "version": "2.8.4"
+            "version": "2.9.0"
           },
           {
             "licenses": [
@@ -830,7 +830,7 @@
               "PostgreSQL"
             ],
             "name": "postgresql15-pgvector",
-            "version": "0.8.7"
+            "version": "0.8.7_1"
           },
           {
             "licenses": [
@@ -893,7 +893,7 @@
     "16-pkg-latest-aarch64": {
       "app_version": "16.15",
       "arch": "aarch64",
-      "generated": "2026-11-10T15:50:28Z",
+      "generated": "2026-11-18T01:10:47Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1147,7 +1147,7 @@
               "MIT"
             ],
             "name": "expat",
-            "version": "2.9.0"
+            "version": "2.10.0"
           },
           {
             "licenses": [
@@ -1217,7 +1217,7 @@
               "REGEX"
             ],
             "name": "llvm19",
-            "version": "19.1.7_4"
+            "version": "19.1.7_5"
           },
           {
             "licenses": [
@@ -1253,7 +1253,7 @@
               "BSD2CLAUSE"
             ],
             "name": "pkg",
-            "version": "2.8.4"
+            "version": "2.9.0"
           },
           {
             "licenses": [
@@ -1274,7 +1274,7 @@
               "PostgreSQL"
             ],
             "name": "postgresql16-pgvector",
-            "version": "0.8.7"
+            "version": "0.8.7_1"
           },
           {
             "licenses": [
@@ -1337,7 +1337,7 @@
     "17-pkg-latest-aarch64": {
       "app_version": "17.11",
       "arch": "aarch64",
-      "generated": "2026-11-10T15:50:34Z",
+      "generated": "2026-11-18T01:10:51Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1591,7 +1591,7 @@
               "MIT"
             ],
             "name": "expat",
-            "version": "2.9.0"
+            "version": "2.10.0"
           },
           {
             "licenses": [
@@ -1661,7 +1661,7 @@
               "REGEX"
             ],
             "name": "llvm19",
-            "version": "19.1.7_4"
+            "version": "19.1.7_5"
           },
           {
             "licenses": [
@@ -1697,7 +1697,7 @@
               "BSD2CLAUSE"
             ],
             "name": "pkg",
-            "version": "2.8.4"
+            "version": "2.9.0"
           },
           {
             "licenses": [
@@ -1718,7 +1718,7 @@
               "PostgreSQL"
             ],
             "name": "postgresql17-pgvector",
-            "version": "0.8.7"
+            "version": "0.8.7_1"
           },
           {
             "licenses": [
@@ -1781,7 +1781,7 @@
     "18-pkg-latest-aarch64": {
       "app_version": "18.6",
       "arch": "aarch64",
-      "generated": "2026-11-10T15:50:40Z",
+      "generated": "2026-11-18T01:10:55Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -2035,7 +2035,7 @@
               "MIT"
             ],
             "name": "expat",
-            "version": "2.9.0"
+            "version": "2.10.0"
           },
           {
             "licenses": [
@@ -2105,7 +2105,7 @@
               "REGEX"
             ],
             "name": "llvm19",
-            "version": "19.1.7_4"
+            "version": "19.1.7_5"
           },
           {
             "licenses": [
@@ -2141,7 +2141,7 @@
               "BSD2CLAUSE"
             ],
             "name": "pkg",
-            "version": "2.8.4"
+            "version": "2.9.0"
           },
           {
             "licenses": [
