@@ -17,6 +17,10 @@ on:
         required: false
         type: string
         default: 'ghcr.io/daemonless'
+      arch:
+        description: 'Architecture filter (fork testing only)'
+        required: false
+        type: string
 
 jobs:
   build:
@@ -31,4 +35,5 @@ jobs:
       image_name: postgres
       variant: ${{ inputs.variant }}
       registry: ${{ inputs.registry || 'ghcr.io/daemonless' }}
+      arch: ${{ inputs.arch }}
     secrets: inherit
