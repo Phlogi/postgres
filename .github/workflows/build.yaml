@@ -20,6 +20,11 @@ on:
 
 jobs:
   build:
+    permissions:
+      contents: write
+      packages: write
+      id-token: write
+      attestations: write
     uses: daemonless/workflows/.github/workflows/daemonless-build.yaml@v1
     with:
       image_name: postgres
