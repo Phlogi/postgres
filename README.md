@@ -15,37 +15,31 @@ The World's Most Advanced Open Source Relational Database on FreeBSD.
 | | |
 |---|---|
 | **Port** | 5432 |
-| **Registry** | `ghcr.io/daemonless/postgres` |
+| **Registry** | `ghcr.io/phlogi/postgres` |
 | **Source** | [https://www.postgresql.org/](https://www.postgresql.org/) |
 | **Website** | [https://www.postgresql.org/](https://www.postgresql.org/) |
 
-## Init scripts
-
-On first start (empty data directory), files in `/docker-entrypoint-initdb.d/`
-run in name order: `*.sh` (run if executable, else sourced), `*.sql` and
-`*.sql.gz`. They run as `bsd`, not as root, and connect as
-`POSTGRES_USER`, the superuser that owns the databases.
+## Version Tags
+| Tag | Description | Best For |
+| :--- | :--- | :--- |
+| `14` / `14-pkg-latest` | **FreeBSD Latest**. Rolling package updates. | Staying current. |
+| `15` / `15-pkg-latest` | **FreeBSD Latest**. Rolling package updates. | Staying current. |
+| `16` / `16-pkg-latest` | **FreeBSD Latest**. Rolling package updates. | Staying current. |
+| `17` / `17-pkg-latest` | **FreeBSD Latest**. Rolling package updates. | Staying current. |
+| `18` / `18-pkg-latest` / `latest` / `pkg` / `pkg-latest` | **FreeBSD Latest**. Rolling package updates. | Staying current. |
+| `19` / `19-pkg-latest` | **FreeBSD Latest**. Rolling package updates. | Staying current. |
 
 ## Prerequisites
-
 Before deploying, ensure your host environment is ready. See the [Quick Start Guide](https://daemonless.io/guides/quick-start) for host setup instructions.
 
 ## Deployment
-
-### Fjord
-
-Install and manage **PostgreSQL** on FreeBSD with [fjord](https://fjord.daemonless.io):
-
-```bash
-fjord install postgres
-```
 
 ### Podman Compose
 
 ```yaml
 services:
   postgres:
-    image: "ghcr.io/daemonless/postgres:latest"
+    image: "ghcr.io/phlogi/postgres:latest"
     container_name: postgres
     environment:
       - POSTGRES_USER=postgres  # Database superuser name (default: postgres)
@@ -123,7 +117,7 @@ ARG tag=latest
 
 OPTION container=boot
 OPTION overwrite=force
-OPTION from=ghcr.io/daemonless/postgres:${tag}
+OPTION from=ghcr.io/phlogi/postgres:${tag}
 ```
 
 **template.conf**:
@@ -155,7 +149,7 @@ Save the files above, then run `appjail-director up`.
 services:
   postgres:
     name: postgres
-    image: "ghcr.io/daemonless/postgres:latest"
+    image: "ghcr.io/phlogi/postgres:latest"
     network:
       - mode: host
     environment:
@@ -198,20 +192,14 @@ Save as `bastille-compose.yml`, then run `bastille up`.
 |------|----------|-------------|
 | `5432` | TCP | PostgreSQL port |
 
-## Version Tags
-| Tag | Description | Best For |
-| :--- | :--- | :--- |
-| `14` / `14-pkg-latest` | **FreeBSD Latest**. Rolling package updates. | Staying current. |
-| `15` / `15-pkg-latest` | **FreeBSD Latest**. Rolling package updates. | Staying current. |
-| `16` / `16-pkg-latest` | **FreeBSD Latest**. Rolling package updates. | Staying current. |
-| `17` / `17-pkg-latest` | **FreeBSD Latest**. Rolling package updates. | Staying current. |
-| `18` / `18-pkg-latest` / `latest` / `pkg` / `pkg-latest` | **FreeBSD Latest**. Rolling package updates. | Staying current. |
-| `19` / `19-pkg-latest` | **FreeBSD Latest**. Rolling package updates. | Staying current. |
+## Init scripts
+
+On first start (empty data directory), files in `/docker-entrypoint-initdb.d/`
+run in name order: `*.sh` (run if executable, else sourced), `*.sql` and
+`*.sql.gz`. They run as `bsd`, not as root, and connect as
+`POSTGRES_USER`, the superuser that owns the databases.
+
 
 **Architectures:** amd64, aarch64
 **User:** `bsd` (UID/GID via PUID/PGID, defaults to 1000:1000)
 **Base:** FreeBSD 15.1
-
----
-
-Need help? Join our [Discord](https://discord.gg/Kb9tkhecZT) community.
