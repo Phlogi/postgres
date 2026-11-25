@@ -12,6 +12,11 @@ on:
         description: 'Tag to rebuild (blank = all)'
         required: false
         type: string
+      registry:
+        description: 'Registry prefix (fork testing only)'
+        required: false
+        type: string
+        default: 'ghcr.io/daemonless'
 
 jobs:
   build:
@@ -19,4 +24,5 @@ jobs:
     with:
       image_name: postgres
       variant: ${{ inputs.variant }}
+      registry: ${{ inputs.registry || 'ghcr.io/daemonless' }}
     secrets: inherit
